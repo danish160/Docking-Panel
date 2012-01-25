@@ -1,0 +1,29 @@
+﻿body{background-color:#262626;font-family:Arial, sans-serif;font-size:100%;overflow-x:hidden;margin:0 auto;}
+.nav,header,footer,section,article{display:block;}
+a{color:#b83000;}
+h1 a{color:#000;text-decoration:none;}
+a:hover{text-decoration:underline;}
+h1,h2,h3,h4{font-weight:400;margin:0;}
+ul,li{list-style-type:none;}
+.content{width:980px;margin:0 auto;}
+
+.nav{margin-left:15px;}
+.nav a,#dropdown li{display:inline-block;color:#FFF;line-height:42px;text-shadow:-1px -1px 1px rgba(0, 0, 0, 0.5);text-decoration:none;border:2px solid transparent;border-width:0 2px;margin:0;padding:0 15px;}
+.nav a:hover,#dropdown li:hover{border:2px solid #140805;border-left-color:#3d170f;border-right-color:#3d170f;border-bottom:0;border-top:0;background-color:#521f14;text-decoration:none;}
+
+#menu{position:absolute;width:100%;z-index:3;clear:both;display:block;background-color:#143352;height:42px;border-top:2px solid rgba(92, 153, 214, 0.5);border-bottom:2px solid rgba(15, 38, 61, 0.5);box-shadow:0 1px 8px rgba(0, 0, 0, 0.6);-webkit-box-shadow:0 1px 8px rgba(0, 0, 0, 0.6);-moz-box-shadow:0 0 0 #000;}
+#menu .content{position:relative;}
+#menu.docked{background-color:rgba(41, 102, 163, 0.4);}
+#menu:hover{background-color:#143352;}
+#menu #dropdown{display:none;width:190px;border-top:2px solid #7a2e1f;color:#eaf2d9;border:2px solid #140805;border-left-color:#3d170f;border-right-color:#3d170f;border-top-width:0;background-color:#521f14;border-top-right-radius:0;border-top-left-radius:0;-moz-border-top-right-radius:0;-moz-border-top-left-radius:0;-webkit-border-top-left-radius:0;-webkit-border-top-right-radius:0;box-shadow:0 6px 8px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 6px 8px rgba(0, 0, 0, 0.5);-webkit-box-shadow:0 6px 8px rgba(0, 0, 0, 0.5);margin:0 0 0 117px;padding:5px 0 0;}
+#menu #dropdown li{font-size:14px;display:block;text-align:left;border:0;padding:0;}
+#menu #dropdown li a{display:block;text-decoration:none;color:#FFF;padding:0 15px;}
+#menu #dropdown li a:hover{background-color:#3d170f;text-decoration:none;}
+
+/*
+
+
+
+
+
+*/
